@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		2ED1FD102BA38F3F00E603E5 /* Login_D3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED1FD0F2BA38F3F00E603E5 /* Login_D3App.swift */; };
-		2ED1FD122BA38F3F00E603E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED1FD112BA38F3F00E603E5 /* ContentView.swift */; };
+		2ED1FD122BA38F3F00E603E5 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED1FD112BA38F3F00E603E5 /* SignInView.swift */; };
 		2ED1FD142BA38F4000E603E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ED1FD132BA38F4000E603E5 /* Assets.xcassets */; };
 		2ED1FD172BA38F4000E603E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ED1FD162BA38F4000E603E5 /* Preview Assets.xcassets */; };
+		2ED1FD1E2BA39C6800E603E5 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED1FD1D2BA39C6800E603E5 /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2ED1FD0C2BA38F3F00E603E5 /* Login_D3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login_D3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ED1FD0F2BA38F3F00E603E5 /* Login_D3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_D3App.swift; sourceTree = "<group>"; };
-		2ED1FD112BA38F3F00E603E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2ED1FD112BA38F3F00E603E5 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		2ED1FD132BA38F4000E603E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2ED1FD162BA38F4000E603E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2ED1FD1D2BA39C6800E603E5 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				2ED1FD0F2BA38F3F00E603E5 /* Login_D3App.swift */,
-				2ED1FD112BA38F3F00E603E5 /* ContentView.swift */,
+				2ED1FD112BA38F3F00E603E5 /* SignInView.swift */,
+				2ED1FD1D2BA39C6800E603E5 /* SignUpView.swift */,
 				2ED1FD132BA38F4000E603E5 /* Assets.xcassets */,
 				2ED1FD152BA38F4000E603E5 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ED1FD122BA38F3F00E603E5 /* ContentView.swift in Sources */,
+				2ED1FD122BA38F3F00E603E5 /* SignInView.swift in Sources */,
+				2ED1FD1E2BA39C6800E603E5 /* SignUpView.swift in Sources */,
 				2ED1FD102BA38F3F00E603E5 /* Login_D3App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

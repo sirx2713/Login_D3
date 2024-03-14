@@ -11,7 +11,7 @@ import SwiftUI
 struct Login_D3App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SignInView()
         }
     }
 }
